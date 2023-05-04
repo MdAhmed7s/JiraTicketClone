@@ -1,0 +1,16 @@
+Default style first that is ( *{} , bidy{} ).
+
+First fill the boxes color so that you can now see and applying changes accordingly.
+
+To make the box come in row make the (Parent has to be set display flex)
+   a-> Parent box as flex
+   b-> Now you can put space between them 
+
+toolbox-cont >*{} : this takes a box on which we wrote and the in the box it takes immediate childre and apply style to that 
+for example if there are one parent and two child then it applies style to the two child it contains so here  we dont need to put style to bot the boxes saperately
+
+
+top has calc() propert to calculate the distance from where we have to put the box 
+
+
+$ = We use dollar sign ( $ ) for making our dynamic content to come on the display.

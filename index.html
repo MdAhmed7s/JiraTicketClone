@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+  <title>JIRA TICKET MANAGEMENT CLONE</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- *************************************************************************************** -->
+  <!-- This is my navigation bar -->
+  <div class="toolbox-cont">
+    <!-- The Priority box contains one box in which it has 4 other differnt color boxes -->
+    <div class="toolbox-priority-cont">
+      <div class="lightpink color"></div>
+      <div class="lightgreen color"></div>
+      <div class="lightblue color"></div>
+      <div class="black color"></div>
+    </div>
+    <!-- The action box contains 2 buttons + and -  -->
+    <div class="action-btn-cont">
+      <div class="add-btn">
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="remove-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- *********************************************************************************** -->
+<!-- Main Container Inside  -->
+<!-- Ticket Box That Stores Our Task -->
+<div class="main-cont">
+<!-- 
+ <div class="ticket-cont">
+  <div class="ticket-color"></div>
+  <div class="ticket-id">$id12</div>
+  <div class="task-area">new task</div>
+  <div class="ticket-lock">
+    <i class="fa-solid fa-lock"></i>
+  </div>
+ </div> -->
+
+</div>
+
+<!-- The Modal Box That Pops On Clicking The Add Option -->
+<div class="modal-cont">
+  <textarea spellcheck="false" textarea class="textarea-cont" placeholder="Enter your task..." ></textarea>
+  <div class="priority-color-cont"> 
+    <div class="lightpink   priority-color "></div>
+    <div class="lightgreen  priority-color "></div>
+    <div class="lightblue priority-color "></div>
+    <div class="black  priority-color border"></div>
+  </div>
+</div>
+
+
+<!-- We are using an external source for generating ID for our tickets -->
+  <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+
+<!-- Joining The Script File For Performing DOM Actions on it -->
+ <script src="./script.js"></script>
+</body>
+
+
+
+</html>
